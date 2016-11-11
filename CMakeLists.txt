@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(ros_controllers_tutorials)
 
+find_package(cmake_modules REQUIRED)
+find_package(Eigen REQUIRED)
+
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   control_msgs
@@ -12,6 +15,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package()
 
 include_directories(
+  ${EIGEN_INCLUDE_DIRS}
   ${catkin_INCLUDE_DIRS}
 )
 

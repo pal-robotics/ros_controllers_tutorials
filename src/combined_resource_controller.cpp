@@ -7,7 +7,7 @@
 #include <pluginlib/class_list_macros.h>
 #include <sensor_msgs/Imu.h>
 #include <geometry_msgs/Wrench.h>
-#include <eigen3/Eigen/Dense>
+#include <Eigen/Dense>
 
 using namespace hardware_interface;
 using namespace std;
