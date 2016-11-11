@@ -1,0 +1,2 @@
+force_controller:
+  type: "ros_controllers_tutorials/ForceTorqueController"

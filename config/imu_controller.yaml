@@ -1,0 +1,2 @@
+imu_controller:
+  type: "ros_controllers_tutorials/ImuController"
