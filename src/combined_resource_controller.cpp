@@ -21,7 +21,7 @@ namespace ros_controllers_tutorials{
     bool initRequest(hardware_interface::RobotHW* robot_hw,
                      ros::NodeHandle&             root_nh,
                      ros::NodeHandle &            controller_nh,
-                     std::set<std::string>&       claimed_resources)
+                     ClaimedResources&       claimed_resources)
     {
 
       // Check if construction finished cleanly
@@ -73,7 +73,7 @@ namespace ros_controllers_tutorials{
         std::cerr  << "FAILED LOADING WALKING" << std::endl;
         return false;
       }
-      claimed_resources = pos_iface->getClaims();
+      claimed_resources.push_back(InterfaceResources(internal::demangledTypeName<PositionJointInterface>(), pos_iface->getClaims()));
       pos_iface->clearClaims();
 
       // success
