@@ -2,6 +2,15 @@
 Changelog for package ros_controllers_tutorials
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'ferrum-fixes' into 'erbium-devel'
+  Ferrum fixes
+  See merge request control/ros_controllers_tutorials!1
+* Add SYSTEM to include dirs
+* pluginlib api fixes
+* Contributors: Victor Lopez
+
 0.1.0 (2018-02-19)
 ------------------
 * fixed compatilibity with ros control kinetic
