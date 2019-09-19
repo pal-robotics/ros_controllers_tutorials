@@ -2,8 +2,8 @@
 Changelog for package ros_controllers_tutorials
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.1 (2019-09-19)
+------------------
 * Merge branch 'ferrum-fixes' into 'erbium-devel'
   Ferrum fixes
   See merge request control/ros_controllers_tutorials!1
