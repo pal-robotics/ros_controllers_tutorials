@@ -43,6 +43,6 @@ namespace ros_controllers_tutorials{
     std::string controlled_joint_name_;
     double cont;
   };
-  PLUGINLIB_DECLARE_CLASS(ros_controllers_tutorials, JointController, ros_controllers_tutorials::JointController, controller_interface::ControllerBase);
+  PLUGINLIB_EXPORT_CLASS(ros_controllers_tutorials::JointController, controller_interface::ControllerBase);
 
 }

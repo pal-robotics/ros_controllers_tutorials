@@ -279,6 +279,6 @@ namespace ros_controllers_tutorials{
     std::vector<hardware_interface::ForceTorqueSensorHandle> ft_sensors_;
 
   };
-  PLUGINLIB_DECLARE_CLASS(ros_controllers_tutorials, CombinedResourceController, ros_controllers_tutorials::CombinedResourceController, controller_interface::ControllerBase);
+  PLUGINLIB_EXPORT_CLASS(ros_controllers_tutorials::CombinedResourceController, controller_interface::ControllerBase);
 
 }

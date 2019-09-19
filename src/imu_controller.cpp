@@ -50,6 +50,6 @@ namespace ros_controllers_tutorials{
     hardware_interface::ImuSensorHandle sensor_;
 
   };
-  PLUGINLIB_DECLARE_CLASS(ros_controllers_tutorials, ImuController, ros_controllers_tutorials::ImuController, controller_interface::ControllerBase);
+  PLUGINLIB_EXPORT_CLASS(ros_controllers_tutorials::ImuController, controller_interface::ControllerBase);
 
 }

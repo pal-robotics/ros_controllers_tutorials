@@ -23,6 +23,6 @@ namespace ros_controllers_tutorials{
 
   private:
   };
-  PLUGINLIB_DECLARE_CLASS(ros_controllers_tutorials, HelloController, ros_controllers_tutorials::HelloController, controller_interface::ControllerBase);
+  PLUGINLIB_EXPORT_CLASS(ros_controllers_tutorials::HelloController, controller_interface::ControllerBase);
 
 }
